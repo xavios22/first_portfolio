@@ -1,6 +1,6 @@
 
 .nav{
-    background-color: #232424;
+    background-color: #2b2c2c;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
@@ -78,7 +78,7 @@ li a:hover{
 
 
 .bg{
-    background-color:#232424;
+    background-color:#2d2e2e;
         
 }
 .aboutimg{
@@ -172,12 +172,13 @@ li a:hover{
 }
 .box{
     padding: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 70px;
     background: #212222;
+    
 }
 
 #servicios{
-    margin-top: 80px;
+    margin-top: 50px;
     
 }
 
@@ -235,4 +236,11 @@ li a:hover{
     outline: none:
 }
 
+#porf-img{
+    height: 350px;
+    
+    margin-bottom: 20px;
+    background: #212222;
+    
+}
 
