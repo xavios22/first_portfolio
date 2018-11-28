@@ -7,7 +7,9 @@
     padding: 10px;
     
 }
-
+strong{
+    color: rgba(238, 178, 13, 0.822)
+}
 #img{
     padding-top: 13px;
     float: left;
@@ -31,7 +33,7 @@ li a {
 }
 li a:hover{
     background-color: rgba(238, 178, 13, 0.822);
-    color: black;
+    color: white;
     text-decoration: none;
     
 }
@@ -62,13 +64,26 @@ li a:hover{
 
    
 }
+.button3:hover {
+    background: rgba(238, 178, 13, 0.822) ;
+    color:white;
+     
+}
+#texte{
+     color :rgba(238, 178, 13, 0.822); 
+     text-decoration: none;
+}
 /*parte header + carousel */
 
 
 
-.aboutme{
-    background-color: #333;
+.bg{
+    background-color:#232424;
         
+}
+.aboutimg{
+    width: 350px;
+    height: 350px;
 }
 .col-md-6{
     margin-top: 200px;
@@ -93,8 +108,15 @@ li a:hover{
     border-radius: 15px;
     
 }
+.button1:hover {
+    background: transparent ;
+    color:white;
+    border: 1px solid  rgba(238, 178, 13, 0.822);
+    
+     
+}
 .button2{
-    background-color: #333;
+    background-color:transparent;
     border: 1px solid  rgba(238, 178, 13, 0.822);
     color: rgba(255, 255, 255, 0.664);
     padding: 15px 32px;
@@ -107,7 +129,41 @@ li a:hover{
     border-radius: 15px;
    
 }
+.button2:hover {
+    background: rgba(238, 178, 13, 0.822) ;
+    color:white;
+     
+}
+/*about me fini*/
 
+
+.skills h1{
+    color: rgba(238, 178, 13, 0.822);
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+* {box-sizing: border-box}
+
+.container-3 {
+    width: 100%;
+    background-color:#121313;
+  }
+.skills {
+  text-align: left;
+  padding: 3px;
+  color: white;
+}
+
+.html {width: 90%; background-color:rgba(238, 178, 13, 0.822);}
+.css {width: 80%; background-color: rgba(238, 178, 13, 0.822);}
+.js {width: 50%; background-color: rgba(238, 178, 13, 0.822);}
+.ds {width: 60%; background-color: rgba(238, 178, 13, 0.822);}
+.ph {width: 60%; background-color: rgba(238, 178, 13, 0.822);}
+
+
+/* parte skills terminada*/
 
 .container-2 h2{
     color: rgba(238, 178, 13, 0.822);
@@ -143,14 +199,45 @@ li a:hover{
     color: rgba(238, 178, 13, 0.822);
 }
 
-.img{
-    width: 1440px;
-    height: 300px;
-    display: relative; 
-    margin-top: 100px  
-}
+
 .parte2{
     color: rgba(238, 178, 13, 0.822);
     text-align: center;
     margin-top: 70px;
+
 }
+ 
+.img{
+    background-image: url("../../img/oferta-programador-web_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500px;
+    
+}
+
+
+
+
+.button4{
+    background-color:transparent; border: 1px solid  rgba(238, 178, 13, 0.822);
+    color: rgba(255, 255, 255, 0.664);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+    outline: none;
+
+   
+}
+.button4:hover {
+    background: rgba(238, 178, 13, 0.822) ;
+    color:white;
+    outline: none:
+}
+
+
