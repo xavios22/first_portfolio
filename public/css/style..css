@@ -148,7 +148,7 @@ li a:hover{
 
 .container-3 {
     width: 100%;
-    background-color:#121313;
+    background-color:#212222;
   }
 .skills {
   text-align: left;
@@ -175,6 +175,7 @@ li a:hover{
     margin-bottom: 30px;
     background: #212222;
 }
+
 #servicios{
     margin-top: 80px;
     
@@ -189,13 +190,7 @@ li a:hover{
 #logo3{
     color: rgba(238, 178, 13, 0.822);
 }
-#logo4{
-    color: rgba(238, 178, 13, 0.822);
-}
-#logo5{
-    color: rgba(238, 178, 13, 0.822);
-}
-#logo6{
+#logo3{
     color: rgba(238, 178, 13, 0.822);
 }
 
