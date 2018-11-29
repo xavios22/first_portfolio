@@ -247,7 +247,66 @@ li a:hover{
     filter: opacity(.5);}
 .container-5 {overflow:hidden;}
 
+/*finianimation portfolio */
 
+.contact-color{
+    color: rgba(238, 178, 13, 0.822);
+    text-align: center;  
+}
+.input-contact{
+    margin-top: 100px;
+}
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid rgba(238, 178, 13, 0.822);
+    border-radius: 10px;
     
+}
 
 
+
+input[type=submit] {
+    background-color: rgba(238, 178, 13, 0.822);
+    border: none;
+    color: rgba(255, 255, 255, 0.664);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+input[type=submit]:hover {
+    background: transparent ;
+    color:white;
+    border: 1px solid  rgba(238, 178, 13, 0.822);
+}
+
+
+
+
+
+.col-75 {
+    
+    width: 70%;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 600px) {
+     .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}

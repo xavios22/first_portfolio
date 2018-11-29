@@ -15,16 +15,16 @@
 <body>
     <nav class="nav fixed-top">
         <div class="container">
-            <a href=""><img id="img" src="../../img/download-3.png" alt="">
+            <a href="#"><img id="img" src="../../img/download-3.png" alt="">
             </a>
             <div>
                 <ul>
 
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">About me</a></li>
-                    <li><a href="#">Service</a></li>
-                    <li><a href="#">Portfolio</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#services">Service</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
 
                 </ul>
             </div>
@@ -49,7 +49,7 @@
             </div>
 
         </div>
-        <div class="container">
+        <div class="container" id="">
             <div class="prueba">
                 <h4>Hello I'm <strong>XAVIER</strong></h4>
                 <h1>
@@ -75,7 +75,7 @@
         </a>
     </div>
 
-    <section class="bg">
+    <section class="bg" id="about">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -142,7 +142,7 @@
 
             </div>
 
-            <div class="container-2">
+            <div class="container-2" id="services">
                 <h2>Services</h2>
                 <div class="row" id="servicios">
                     <div class="col-md-3">
@@ -188,14 +188,13 @@
 
                 </div>
             </div>
+            <div class="img"></div>
     </section>
 
 
 
-    <section class="bg">
-        <div class="img">
+    <section class="bg" id="portfolio">
 
-        </div>
         <div class="container">
             <div>
                 <h2 class="parte2">Portfolio</h2>
@@ -237,8 +236,49 @@
             </div>
 
     </section>
-    <section class="bg">
-        <h2>Contact</h2>
+    <section class="bg" id="contact">
+        <div class="container">
+            <div>
+                <h2 class="contact-color">Contact</h2>
+
+            </div>
+            <div>
+
+                <div class="row">
+                    <div class="col-75">
+                        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-75">
+                        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-75">
+
+                        <select id="country" name="country">
+                            <option value="australia">Belgium</option>
+                            <option value="canada">France</option>
+                            <option value="usa">Esspagne</option>
+                            <option value="usa">Autre..</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-75">
+                        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit">
+                </div>
+
+            </div>
+        </div>
+
     </section>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

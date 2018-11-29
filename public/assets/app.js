@@ -105,3 +105,5 @@ btnsite.addEventListener("click", () => {
     desg.classList.add("d-none");
     sit.classList.remove("d-none");
 });
+
+/// filtre portfollio fini 
