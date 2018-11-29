@@ -80,3 +80,28 @@ btndesign.addEventListener("click", () => {
     lang.classList.add("d-none");
     des.classList.remove("d-none");
 });
+
+
+/// fin d'animation filtre  skills 
+
+let btnall2 = document.getElementById("filtre-all2");
+let btndesign2 = document.getElementById("filtre-design2");
+let btnsite = document.getElementById("filtre-site2");
+
+let desg = document.getElementById("design2");
+let sit = document.getElementById("site");
+
+btnall2.addEventListener("click", () => {
+    desg.classList.remove("d-none");
+    sit.classList.remove("d-none");
+});
+
+btndesign2.addEventListener("click", () => {
+    desg.classList.remove("d-none");
+    sit.classList.add("d-none");
+});
+
+btnsite.addEventListener("click", () => {
+    desg.classList.add("d-none");
+    sit.classList.remove("d-none");
+});
