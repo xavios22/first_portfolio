@@ -178,8 +178,8 @@ li a:hover{
 }
 
 #servicios{
-    margin-top: 50px;
-    
+    margin-top: 90px;
+       
 }
 
 #logo1{
@@ -194,15 +194,7 @@ li a:hover{
 #logo3{
     color: rgba(238, 178, 13, 0.822);
 }
-
-
-.parte2{
-    color: rgba(238, 178, 13, 0.822);
-    text-align: center;
-    margin-top: 70px;
-
-}
- 
+/* servicios teriminado*/
 .img{
     background-image: url("../../img/oferta-programador-web_1.jpg");
     background-size: cover;
@@ -212,7 +204,20 @@ li a:hover{
     
 }
 
+.parte2{
+    color: rgba(238, 178, 13, 0.822);
+    text-align: center;
+    padding-top: 80px
 
+}
+ 
+.filtre{
+    margin-top: 70px
+}
+
+#site{
+    margin-top: 80px
+}
 
 
 .button4{
@@ -243,36 +248,41 @@ li a:hover{
     background: #212222;
     
 }
-.container-5:hover .porf-img {-webkit-transform:scale(1.3);transform:scale(1.3);
-    filter: opacity(.5);}
-.container-5 {overflow:hidden;}
+.container-5:hover .porf-img { 
+    transform:scale(1.3);
+    filter: opacity(.5);
+}
+.container-5 {
+    overflow:hidden;
+}
 
 /*finianimation portfolio */
 
 .contact-color{
     color: rgba(238, 178, 13, 0.822);
-    text-align: center;  
-}
-.input-contact{
-    margin-top: 100px;
+    text-align: center; 
+    padding-top: 90px 
 }
 
-
-
-
-* {
-    box-sizing: border-box;
+.imput{
+    margin-top: 70px;
 }
+
+#imput{
+    margin-top: 30px;
+    text-align: center;
+}
+
+
 
 input[type=text], select, textarea {
     width: 100%;
     padding: 15px;
-    border: 1px solid rgba(238, 178, 13, 0.822);
+    border: 1px solid ;
     border-radius: 10px;
+
     
 }
-
-
 
 input[type=submit] {
     background-color: rgba(238, 178, 13, 0.822);
@@ -294,19 +304,52 @@ input[type=submit]:hover {
     border: 1px solid  rgba(238, 178, 13, 0.822);
 }
 
+/*contact fini*/
 
 
+#contact-2{
+    margin-top: 80px;
+    padding: 40px
+}
 
-
-.col-75 {
+#logos{
+    color:rgba(238, 178, 13, 0.822);
+    font-size: 25px;
+    text-align: center;
     
-    width: 70%;
-    margin-top: 10px;
+}
+#logos h5{
+    color: rgba(255, 255, 255, 0.664);
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center;
+    
+    
+}
+/* contact partie 2 fini*/
+
+
+.bg-foot{
+    background-color: #2b2c2c;
 }
 
-@media screen and (max-width: 600px) {
-     .col-75, input[type=submit] {
-        width: 100%;
-        margin-top: 0;
-    }
+.img-foot{
+    color: rgba(238, 178, 13, 0.822);
+    font-size: 40px;
+    margin-top: 50px;
+    text-align: center;
+    
 }
+#center{
+    text-align: center;
+}
+.texte-h5{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 2px;
+    color: rgba(255, 255, 255, 0.664)
+}
+
+
+
